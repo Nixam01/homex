@@ -1,0 +1,48 @@
+08-01-2023_16-08-36 cliapp
+aaaaaa
+aaaa
+aaaaaaaa
+
+
+08-01-2023_16-09-06 cliapp
+abcd1234
+abcdef
+abcdefg
+
+
+08-01-2023_16-12-52 agent
+b'"1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000\
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\
+    inet 127.0.0.1/8 scope host lo\
+       valid_lft forever preferred_lft forever\
+40: eth0@if41: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue state UP \
+    link/ether 02:42:ac:11:00:02 brd ff:ff:ff:ff:ff:ff\
+    inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0\
+       valid_lft forever preferred_lft forever\
+"'
+
+08-01-2023_16-14-08 cliapp
+b'\n\r\r\n\xb0\x00\x00\x00M<+\x1a\x01\x00\x00\x00\xff\xff\xff\xff\xff\xff\xff\xff\x02\x007\x00Intel(R) Core(TM) i5-1035G1 CPU @ 1.00GHz (with SSE4.2)\x00\x03\x00\x17\x00Linux 5.15.0-57-generic\x00\x04\x004\x00Dumpcap (Wireshark) 3.4.13 (Git commit 459589f7a0df)\x00\x00\x00\x00\xb0\x00\x00\x00\x01\x00\x00\x00D\x00\x00\x00\x01\x00\x00\x00\x00\x00\x04\x00\x02\x00\x04\x00eth0\t\x00\x01\x00\t\x00\x00\x00\x0c\x00\x17\x00Linux 5.15.0-57-generic\x00\x00\x00\x00\x00D\x00\x00\x00'
+
+08-01-2023_16-23-36 cliapp
+file 08-01-2023_16-23-36.pcap dowloaded to folder cliapp/database/downloads_from_agent/pcaps 
+
+08-01-2023_16-24-21 cliapp
+file 08-01-2023_16-24-21.pcap dowloaded to folder cliapp/database/downloads_from_agent/pcaps 
+
+08-01-2023_16-25-15 agent
+b'["1) 12-12-2021_16-04-10.pcap","2) 12-12-2021_14-40-58.pcap","3) 07-01-2023_19-52-12.pcap","4) 08-01-2023_15-24-16.pcap","5) 07-01-2023_19-46-16.pcap","6) 07-01-2023_20-33-33.pcap","7) 08-01-2023_15-23-30.pcap","8) 07-01-2023_19-49-45.pcap","9) 07-01-2023_19-53-19.pcap","10) 08-01-2023_15-13-37.pcap","11) 07-01-2023_19-54-30.pcap"]'
+
+08-01-2023_16-25-45 agent
+b'["1) log1.evtx","2) testlog.evtx"]'
+
+08-01-2023_16-27-46 agent
+downloaded pcap to /database/downloads_from_agent/pcaps folder
+
+08-01-2023_16-29-20 agent
+b'"Dockerfile\
+agent.py\
+agent_files\
+libraries.txt\
+"'
+
