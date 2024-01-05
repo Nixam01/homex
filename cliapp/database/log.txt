@@ -46,3 +46,1857 @@ agent_files\
 libraries.txt\
 "'
 
+05-01-2024_12-09-40 cliapp
+Packet (Length: 108)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 94
+[0m[1m[32m	Identification:[0m[1m 0xf10d (61709)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7bc9 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 48083
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 74
+[0m[1m[32m	Checksum:[0m[1m 0xce13 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (66 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x5e10
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name Length:[0m[1m 37
+[0m[1m[32m	Label Count:[0m[1m 5
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type A, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 108)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 94
+[0m[1m[32m	Identification:[0m[1m 0xf10e (61710)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7bc8 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 37415
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 74
+[0m[1m[32m	Checksum:[0m[1m 0xce13 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 1
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (66 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0xade8
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name Length:[0m[1m 37
+[0m[1m[32m	Label Count:[0m[1m 5
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 172)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 158
+[0m[1m[32m	Identification:[0m[1m 0x3afb (15099)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x719c [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 48083
+[0m[1m[32m	Length:[0m[1m 138
+[0m[1m[32m	Checksum:[0m[1m 0xcbc1 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 0
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.009800685 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.009800685 seconds
+[0m[1m	UDP payload (130 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x5e10
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 4
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name Length:[0m[1m 37
+[0m[1m[32m	Label Count:[0m[1m 5
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 50 (50 seconds)
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Address:[0m[1m 52.84.197.20
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 26
+[0m[1m[32m	Time:[0m[1m 0.009800685 seconds
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type A, class IN
+[0m[1m	Answers
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type A, class IN, addr 52.84.197.20
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type A, class IN, addr 52.84.197.85
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type A, class IN, addr 52.84.197.30
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type A, class IN, addr 52.84.197.90
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 50 (50 seconds)
+[0m[1m[32m	Time to live:[0m[1m 50 (50 seconds)
+[0m[1m[32m	Time to live:[0m[1m 50 (50 seconds)
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	Address:[0m[1m 52.84.197.85
+[0m[1m[32m	Address:[0m[1m 52.84.197.30
+[0m[1m[32m	Address:[0m[1m 52.84.197.90
+[0mPacket (Length: 192)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 178
+[0m[1m[32m	Identification:[0m[1m 0x3afc (15100)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7187 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 37415
+[0m[1m[32m	Length:[0m[1m 158
+[0m[1m[32m	Checksum:[0m[1m 0x24d3 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 1
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.011042112 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.011042112 seconds
+[0m[1m	UDP payload (150 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0xade8
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 1
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m firefox.settings.services.mozilla.com
+[0m[1m[32m	Name Length:[0m[1m 37
+[0m[1m[32m	Label Count:[0m[1m 5
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m settings.services.mozilla.com
+[0m[1m[32m	Type:[0m[1m SOA (Start Of a zone of Authority) (6)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 136 (2 minutes, 16 seconds)
+[0m[1m[32m	Data length:[0m[1m 72
+[0m[1m[32m	Primary name server:[0m[1m ns-1627.awsdns-11.co.uk
+[0m[1m[32m	Responsible authority's mailbox:[0m[1m awsdns-hostmaster.amazon.com
+[0m[1m[32m	Serial Number:[0m[1m 1
+[0m[1m[32m	Refresh Interval:[0m[1m 7200 (2 hours)
+[0m[1m[32m	Retry Interval:[0m[1m 900 (15 minutes)
+[0m[1m[32m	Expire limit:[0m[1m 1209600 (14 days)
+[0m[1m[32m	Minimum TTL:[0m[1m 86400 (1 day)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 27
+[0m[1m[32m	Time:[0m[1m 0.011042112 seconds
+[0m[1m[32m	firefox.settings.services.mozilla.com:[0m[1m type AAAA, class IN
+[0m[1m	Authoritative nameservers
+[0m[1m[32m	settings.services.mozilla.com:[0m[1m type SOA, class IN, mname ns-1627.awsdns-11.co.uk
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Data length:[0m[1m 0
+[0mPacket (Length: 101)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 87
+[0m[1m[32m	Identification:[0m[1m 0xf122 (61730)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7bbb [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 55239
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 67
+[0m[1m[32m	Checksum:[0m[1m 0xce0c [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 2
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (59 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x6b8a
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m incoming.telemetry.mozilla.org
+[0m[1m[32m	Name Length:[0m[1m 30
+[0m[1m[32m	Label Count:[0m[1m 4
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	incoming.telemetry.mozilla.org:[0m[1m type A, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 101)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 87
+[0m[1m[32m	Identification:[0m[1m 0xf123 (61731)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7bba [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 38971
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 67
+[0m[1m[32m	Checksum:[0m[1m 0xce0c [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 3
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (59 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x45c8
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m incoming.telemetry.mozilla.org
+[0m[1m[32m	Name Length:[0m[1m 30
+[0m[1m[32m	Label Count:[0m[1m 4
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	incoming.telemetry.mozilla.org:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 233)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 219
+[0m[1m[32m	Identification:[0m[1m 0x3b09 (15113)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7151 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 55239
+[0m[1m[32m	Length:[0m[1m 199
+[0m[1m[32m	Checksum:[0m[1m 0x4e18 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 2
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.010107895 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.010107895 seconds
+[0m[1m	UDP payload (191 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x6b8a
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 3
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m incoming.telemetry.mozilla.org
+[0m[1m[32m	Name Length:[0m[1m 30
+[0m[1m[32m	Label Count:[0m[1m 4
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m incoming.telemetry.mozilla.org
+[0m[1m[32m	Type:[0m[1m CNAME (Canonical NAME for an alias) (5)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 44 (44 seconds)
+[0m[1m[32m	Data length:[0m[1m 47
+[0m[1m[32m	CNAME:[0m[1m telemetry-incoming.r53-2.services.mozilla.com
+[0m[1m[32m	Address:[0m[1m 34.120.208.123
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 55
+[0m[1m[32m	Time:[0m[1m 0.010107895 seconds
+[0m[1m[32m	incoming.telemetry.mozilla.org:[0m[1m type A, class IN
+[0m[1m	Answers
+[0m[1m[32m	incoming.telemetry.mozilla.org:[0m[1m type CNAME, class IN, cname telemetry-incoming.r53-2.services.mozilla.com
+[0m[1m[32m	telemetry-incoming.r53-2.services.mozilla.com:[0m[1m type CNAME, class IN, cname prod.ingestion-edge.prod.dataops.mozgcp.net
+[0m[1m[32m	prod.ingestion-edge.prod.dataops.mozgcp.net:[0m[1m type A, class IN, addr 34.120.208.123
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m telemetry-incoming.r53-2.services.mozilla.com
+[0m[1m[32m	Name:[0m[1m prod.ingestion-edge.prod.dataops.mozgcp.net
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m CNAME (Canonical NAME for an alias) (5)
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 207 (3 minutes, 27 seconds)
+[0m[1m[32m	Time to live:[0m[1m 44 (44 seconds)
+[0m[1m[32m	Data length:[0m[1m 45
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	CNAME:[0m[1m prod.ingestion-edge.prod.dataops.mozgcp.net
+[0mPacket (Length: 307)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 293
+[0m[1m[32m	Identification:[0m[1m 0x3b0a (15114)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7106 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 38971
+[0m[1m[32m	Length:[0m[1m 273
+[0m[1m[32m	Checksum:[0m[1m 0x96b1 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 3
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.015364266 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.015364266 seconds
+[0m[1m	UDP payload (265 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x45c8
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 2
+[0m[1m[32m	Authority RRs:[0m[1m 1
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m incoming.telemetry.mozilla.org
+[0m[1m[32m	Name Length:[0m[1m 30
+[0m[1m[32m	Label Count:[0m[1m 4
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m incoming.telemetry.mozilla.org
+[0m[1m[32m	Type:[0m[1m CNAME (Canonical NAME for an alias) (5)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 53 (53 seconds)
+[0m[1m[32m	Data length:[0m[1m 47
+[0m[1m[32m	CNAME:[0m[1m telemetry-incoming.r53-2.services.mozilla.com
+[0m[1m[32m	Primary name server:[0m[1m ns-cloud-b1.googledomains.com
+[0m[1m[32m	Responsible authority's mailbox:[0m[1m cloud-dns-hostmaster.google.com
+[0m[1m[32m	Serial Number:[0m[1m 1
+[0m[1m[32m	Refresh Interval:[0m[1m 21600 (6 hours)
+[0m[1m[32m	Retry Interval:[0m[1m 3600 (1 hour)
+[0m[1m[32m	Expire limit:[0m[1m 259200 (3 days)
+[0m[1m[32m	Minimum TTL:[0m[1m 300 (5 minutes)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 56
+[0m[1m[32m	Time:[0m[1m 0.015364266 seconds
+[0m[1m[32m	incoming.telemetry.mozilla.org:[0m[1m type AAAA, class IN
+[0m[1m	Answers
+[0m[1m[32m	incoming.telemetry.mozilla.org:[0m[1m type CNAME, class IN, cname telemetry-incoming.r53-2.services.mozilla.com
+[0m[1m[32m	telemetry-incoming.r53-2.services.mozilla.com:[0m[1m type CNAME, class IN, cname prod.ingestion-edge.prod.dataops.mozgcp.net
+[0m[1m	Authoritative nameservers
+[0m[1m[32m	ingestion-edge.prod.dataops.mozgcp.net:[0m[1m type SOA, class IN, mname ns-cloud-b1.googledomains.com
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m telemetry-incoming.r53-2.services.mozilla.com
+[0m[1m[32m	Name:[0m[1m ingestion-edge.prod.dataops.mozgcp.net
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m CNAME (Canonical NAME for an alias) (5)
+[0m[1m[32m	Type:[0m[1m SOA (Start Of a zone of Authority) (6)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 53 (53 seconds)
+[0m[1m[32m	Time to live:[0m[1m 154 (2 minutes, 34 seconds)
+[0m[1m[32m	Data length:[0m[1m 45
+[0m[1m[32m	Data length:[0m[1m 78
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	CNAME:[0m[1m prod.ingestion-edge.prod.dataops.mozgcp.net
+[0mPacket (Length: 114)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 100
+[0m[1m[32m	Identification:[0m[1m 0xf126 (61734)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7baa [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 40769
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 80
+[0m[1m[32m	Checksum:[0m[1m 0xce19 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 4
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (72 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x413e
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m prod.ingestion-edge.prod.dataops.mozgcp.net
+[0m[1m[32m	Name Length:[0m[1m 43
+[0m[1m[32m	Label Count:[0m[1m 6
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	prod.ingestion-edge.prod.dataops.mozgcp.net:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 114)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 100
+[0m[1m[32m	Identification:[0m[1m 0x3b0d (15117)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x71c4 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 40769
+[0m[1m[32m	Length:[0m[1m 80
+[0m[1m[32m	Checksum:[0m[1m 0x944e [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 4
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.004852625 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.004852625 seconds
+[0m[1m	UDP payload (72 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x413e
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m prod.ingestion-edge.prod.dataops.mozgcp.net
+[0m[1m[32m	Name Length:[0m[1m 43
+[0m[1m[32m	Label Count:[0m[1m 6
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 4096
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	Request In:[0m[1m 60
+[0m[1m[32m	Time:[0m[1m 0.004852625 seconds
+[0m[1m[32m	prod.ingestion-edge.prod.dataops.mozgcp.net:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 96)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 82
+[0m[1m[32m	Identification:[0m[1m 0xf207 (61959)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7adb [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 50212
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 62
+[0m[1m[32m	Checksum:[0m[1m 0xce07 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 5
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (54 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0xfc39
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m click.palletsprojects.com
+[0m[1m[32m	Name Length:[0m[1m 25
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	click.palletsprojects.com:[0m[1m type A, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 96)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 82
+[0m[1m[32m	Identification:[0m[1m 0xf208 (61960)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7ada [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 51003
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 62
+[0m[1m[32m	Checksum:[0m[1m 0xce07 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 6
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (54 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x9adc
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m click.palletsprojects.com
+[0m[1m[32m	Name Length:[0m[1m 25
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	click.palletsprojects.com:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 156)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 142
+[0m[1m[32m	Identification:[0m[1m 0x3b17 (15127)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7190 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 50212
+[0m[1m[32m	Length:[0m[1m 122
+[0m[1m[32m	Checksum:[0m[1m 0xb4c1 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 5
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.061550655 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.061550655 seconds
+[0m[1m	UDP payload (114 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0xfc39
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 3
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m click.palletsprojects.com
+[0m[1m[32m	Name Length:[0m[1m 25
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m click.palletsprojects.com
+[0m[1m[32m	Type:[0m[1m CNAME (Canonical NAME for an alias) (5)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 300 (5 minutes)
+[0m[1m[32m	Data length:[0m[1m 16
+[0m[1m[32m	CNAME:[0m[1m readthedocs.io
+[0m[1m[32m	Address:[0m[1m 104.17.32.82
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 84
+[0m[1m[32m	Time:[0m[1m 0.061550655 seconds
+[0m[1m[32m	click.palletsprojects.com:[0m[1m type A, class IN
+[0m[1m	Answers
+[0m[1m[32m	click.palletsprojects.com:[0m[1m type CNAME, class IN, cname readthedocs.io
+[0m[1m[32m	readthedocs.io:[0m[1m type A, class IN, addr 104.17.32.82
+[0m[1m[32m	readthedocs.io:[0m[1m type A, class IN, addr 104.17.33.82
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m readthedocs.io
+[0m[1m[32m	Name:[0m[1m readthedocs.io
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 300 (5 minutes)
+[0m[1m[32m	Time to live:[0m[1m 300 (5 minutes)
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	Address:[0m[1m 104.17.33.82
+[0mPacket (Length: 180)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 166
+[0m[1m[32m	Identification:[0m[1m 0x3b18 (15128)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7177 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 51003
+[0m[1m[32m	Length:[0m[1m 146
+[0m[1m[32m	Checksum:[0m[1m 0x9cfd [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 6
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.244777240 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.244777240 seconds
+[0m[1m	UDP payload (138 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x9adc
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 3
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m click.palletsprojects.com
+[0m[1m[32m	Name Length:[0m[1m 25
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m click.palletsprojects.com
+[0m[1m[32m	Type:[0m[1m CNAME (Canonical NAME for an alias) (5)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 300 (5 minutes)
+[0m[1m[32m	Data length:[0m[1m 16
+[0m[1m[32m	CNAME:[0m[1m readthedocs.io
+[0m[1m[32m	AAAA Address:[0m[1m 2606:4700::6811:2052
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 85
+[0m[1m[32m	Time:[0m[1m 0.244777240 seconds
+[0m[1m[32m	click.palletsprojects.com:[0m[1m type AAAA, class IN
+[0m[1m	Answers
+[0m[1m[32m	click.palletsprojects.com:[0m[1m type CNAME, class IN, cname readthedocs.io
+[0m[1m[32m	readthedocs.io:[0m[1m type AAAA, class IN, addr 2606:4700::6811:2052
+[0m[1m[32m	readthedocs.io:[0m[1m type AAAA, class IN, addr 2606:4700::6811:2152
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m readthedocs.io
+[0m[1m[32m	Name:[0m[1m readthedocs.io
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 300 (5 minutes)
+[0m[1m[32m	Time to live:[0m[1m 300 (5 minutes)
+[0m[1m[32m	Data length:[0m[1m 16
+[0m[1m[32m	Data length:[0m[1m 16
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	AAAA Address:[0m[1m 2606:4700::6811:2152
+[0mPacket (Length: 90)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 76
+[0m[1m[32m	Identification:[0m[1m 0xf2aa (62122)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7a3e [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 37795
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 56
+[0m[1m[32m	Checksum:[0m[1m 0xce01 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 7
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (48 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x77e5
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Name Length:[0m[1m 19
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type A, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 90)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 76
+[0m[1m[32m	Identification:[0m[1m 0xf2ab (62123)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7a3d [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 50008
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 56
+[0m[1m[32m	Checksum:[0m[1m 0xce01 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 8
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (48 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0xe046
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Name Length:[0m[1m 19
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 81)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 67
+[0m[1m[32m	Identification:[0m[1m 0xf2ac (62124)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7a45 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 59116
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 47
+[0m[1m[32m	Checksum:[0m[1m 0xcdf8 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 9
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (39 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x48db
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m github.com
+[0m[1m[32m	Name Length:[0m[1m 10
+[0m[1m[32m	Label Count:[0m[1m 2
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	github.com:[0m[1m type A, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 81)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 67
+[0m[1m[32m	Identification:[0m[1m 0xf2ad (62125)
+[0m[1m[32m	Flags:[0m[1m 0x40, Don't fragment
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.1.. .... = Don't fragment:[0m[1m Set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7a44 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 10.0.2.15
+[0m[1m[32m	Destination Address:[0m[1m 192.168.1.1
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 49204
+[0m[1m[32m	Destination Port:[0m[1m 53
+[0m[1m[32m	Length:[0m[1m 47
+[0m[1m[32m	Checksum:[0m[1m 0xcdf8 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 10
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.000000000 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.000000000 seconds
+[0m[1m	UDP payload (39 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x8af9
+[0m[1m[32m	Flags:[0m[1m 0x0100 Standard query
+[0m[1m[32m	0... .... .... .... = Response:[0m[1m Message is a query
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m github.com
+[0m[1m[32m	Name Length:[0m[1m 10
+[0m[1m[32m	Label Count:[0m[1m 2
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	github.com:[0m[1m type AAAA, class IN
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0mPacket (Length: 146)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 132
+[0m[1m[32m	Identification:[0m[1m 0x3b19 (15129)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7198 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 49204
+[0m[1m[32m	Length:[0m[1m 112
+[0m[1m[32m	Checksum:[0m[1m 0x3d07 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 10
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.010730346 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.010730346 seconds
+[0m[1m	UDP payload (104 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x8af9
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 0
+[0m[1m[32m	Authority RRs:[0m[1m 1
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m github.com
+[0m[1m[32m	Name Length:[0m[1m 10
+[0m[1m[32m	Label Count:[0m[1m 2
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m github.com
+[0m[1m[32m	Type:[0m[1m SOA (Start Of a zone of Authority) (6)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 1838 (30 minutes, 38 seconds)
+[0m[1m[32m	Data length:[0m[1m 53
+[0m[1m[32m	Primary name server:[0m[1m dns1.p08.nsone.net
+[0m[1m[32m	Responsible authority's mailbox:[0m[1m hostmaster.nsone.net
+[0m[1m[32m	Serial Number:[0m[1m 1639120835
+[0m[1m[32m	Refresh Interval:[0m[1m 43200 (12 hours)
+[0m[1m[32m	Retry Interval:[0m[1m 7200 (2 hours)
+[0m[1m[32m	Expire limit:[0m[1m 1209600 (14 days)
+[0m[1m[32m	Minimum TTL:[0m[1m 3600 (1 hour)
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 91
+[0m[1m[32m	Time:[0m[1m 0.010730346 seconds
+[0m[1m[32m	github.com:[0m[1m type AAAA, class IN
+[0m[1m	Authoritative nameservers
+[0m[1m[32m	github.com:[0m[1m type SOA, class IN, mname dns1.p08.nsone.net
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Data length:[0m[1m 0
+[0mPacket (Length: 97)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 83
+[0m[1m[32m	Identification:[0m[1m 0x3b1a (15130)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x71c8 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 59116
+[0m[1m[32m	Length:[0m[1m 63
+[0m[1m[32m	Checksum:[0m[1m 0x86cb [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 9
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.010852393 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.010852393 seconds
+[0m[1m	UDP payload (55 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x48db
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 1
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m github.com
+[0m[1m[32m	Name Length:[0m[1m 10
+[0m[1m[32m	Label Count:[0m[1m 2
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m github.com
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 59 (59 seconds)
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Address:[0m[1m 140.82.121.3
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 90
+[0m[1m[32m	Time:[0m[1m 0.010852393 seconds
+[0m[1m[32m	github.com:[0m[1m type A, class IN
+[0m[1m	Answers
+[0m[1m[32m	github.com:[0m[1m type A, class IN, addr 140.82.121.3
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Data length:[0m[1m 0
+[0mPacket (Length: 122)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 108
+[0m[1m[32m	Identification:[0m[1m 0x3b1b (15131)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x71ae [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 37795
+[0m[1m[32m	Length:[0m[1m 88
+[0m[1m[32m	Checksum:[0m[1m 0x0be7 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 7
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.027823925 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.027823925 seconds
+[0m[1m	UDP payload (80 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0x77e5
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 2
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Name Length:[0m[1m 19
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 20 (20 seconds)
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Address:[0m[1m 52.58.69.95
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 88
+[0m[1m[32m	Time:[0m[1m 0.027823925 seconds
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type A, class IN
+[0m[1m	Answers
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type A, class IN, addr 52.58.69.95
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type A, class IN, addr 3.125.252.47
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m A (Host Address) (1)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 20 (20 seconds)
+[0m[1m[32m	Data length:[0m[1m 4
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	Address:[0m[1m 3.125.252.47
+[0mPacket (Length: 146)
+[1m[33mLayer ETH
+:[0m[1m[32m	Destination:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	Address:[0m[1m 08:00:27:0a:99:80
+[0m[1m[32m	.... ..0. .... .... .... .... = LG bit:[0m[1m Globally unique address (factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Source:[0m[1m 52:54:00:12:35:02
+[0m[1m[32m	.... ..1. .... .... .... .... = LG bit:[0m[1m Locally administered address (this is NOT the factory default)
+[0m[1m[32m	.... ...0 .... .... .... .... = IG bit:[0m[1m Individual address (unicast)
+[0m[1m[32m	Type:[0m[1m IPv4 (0x0800)
+[0m[1m[32m	Address:[0m[1m 52:54:00:12:35:02
+[0m[1m[33mLayer IP
+:[0m[1m[32m	0100 .... = Version:[0m[1m 4
+[0m[1m[32m	.... 0101 = Header Length:[0m[1m 20 bytes (5)
+[0m[1m[32m	Differentiated Services Field:[0m[1m 0x00 (DSCP: CS0, ECN: Not-ECT)
+[0m[1m[32m	0000 00.. = Differentiated Services Codepoint:[0m[1m Default (0)
+[0m[1m[32m	.... ..00 = Explicit Congestion Notification:[0m[1m Not ECN-Capable Transport (0)
+[0m[1m[32m	Total Length:[0m[1m 132
+[0m[1m[32m	Identification:[0m[1m 0x3b1c (15132)
+[0m[1m[32m	Flags:[0m[1m 0x00
+[0m[1m[32m	0... .... = Reserved bit:[0m[1m Not set
+[0m[1m[32m	.0.. .... = Don't fragment:[0m[1m Not set
+[0m[1m[32m	..0. .... = More fragments:[0m[1m Not set
+[0m[1m[32m	...0 0000 0000 0000 = Fragment Offset:[0m[1m 0
+[0m[1m[32m	Time to Live:[0m[1m 64
+[0m[1m[32m	Protocol:[0m[1m UDP (17)
+[0m[1m[32m	Header Checksum:[0m[1m 0x7195 [validation disabled]
+[0m[1m[32m	Header checksum status:[0m[1m Unverified
+[0m[1m[32m	Source Address:[0m[1m 192.168.1.1
+[0m[1m[32m	Destination Address:[0m[1m 10.0.2.15
+[0m[1m[33mLayer UDP
+:[0m[1m[32m	Source Port:[0m[1m 53
+[0m[1m[32m	Destination Port:[0m[1m 50008
+[0m[1m[32m	Length:[0m[1m 112
+[0m[1m[32m	Checksum:[0m[1m 0xd957 [unverified]
+[0m[1m[32m	Checksum Status:[0m[1m Unverified
+[0m[1m[32m	Stream index:[0m[1m 8
+[0m[1m	Timestamps
+[0m[1m[32m	Time since first frame:[0m[1m 0.029706169 seconds
+[0m[1m[32m	Time since previous frame:[0m[1m 0.029706169 seconds
+[0m[1m	UDP payload (104 bytes)
+[0m[1m[33mLayer DNS
+:[0m[1m[32m	Transaction ID:[0m[1m 0xe046
+[0m[1m[32m	Flags:[0m[1m 0x8180 Standard query response, No error
+[0m[1m[32m	1... .... .... .... = Response:[0m[1m Message is a response
+[0m[1m[32m	.000 0... .... .... = Opcode:[0m[1m Standard query (0)
+[0m[1m[32m	.... .0.. .... .... = Authoritative:[0m[1m Server is not an authority for domain
+[0m[1m[32m	.... ..0. .... .... = Truncated:[0m[1m Message is not truncated
+[0m[1m[32m	.... ...1 .... .... = Recursion desired:[0m[1m Do query recursively
+[0m[1m[32m	.... .... 1... .... = Recursion available:[0m[1m Server can do recursive queries
+[0m[1m[32m	.... .... .0.. .... = Z:[0m[1m reserved (0)
+[0m[1m[32m	.... .... ..0. .... = Answer authenticated:[0m[1m Answer/authority portion was not authenticated by the server
+[0m[1m[32m	.... .... ...0 .... = Non-authenticated data:[0m[1m Unacceptable
+[0m[1m[32m	.... .... .... 0000 = Reply code:[0m[1m No error (0)
+[0m[1m[32m	Questions:[0m[1m 1
+[0m[1m[32m	Answer RRs:[0m[1m 2
+[0m[1m[32m	Authority RRs:[0m[1m 0
+[0m[1m[32m	Additional RRs:[0m[1m 1
+[0m[1m	Queries
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Name Length:[0m[1m 19
+[0m[1m[32m	Label Count:[0m[1m 3
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 20 (20 seconds)
+[0m[1m[32m	Data length:[0m[1m 16
+[0m[1m[32m	AAAA Address:[0m[1m 2a03:b0c0:3:d0::d24:2001
+[0m[1m[32m	UDP payload size:[0m[1m 512
+[0m[1m[32m	Higher bits in extended RCODE:[0m[1m 0x00
+[0m[1m[32m	EDNS0 version:[0m[1m 0
+[0m[1m[32m	Z:[0m[1m 0x0000
+[0m[1m[32m	0... .... .... .... = DO bit:[0m[1m Cannot handle DNSSEC security RRs
+[0m[1m[32m	.000 0000 0000 0000 = Reserved:[0m[1m 0x0000
+[0m[1m[32m	Request In:[0m[1m 89
+[0m[1m[32m	Time:[0m[1m 0.029706169 seconds
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type AAAA, class IN
+[0m[1m	Answers
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type AAAA, class IN, addr 2a03:b0c0:3:d0::d24:2001
+[0m[1m[32m	fastapi.netlify.com:[0m[1m type AAAA, class IN, addr 2a03:b0c0:3:d0::d23:d001
+[0m[1m	Additional records
+[0m[1m[32m	<Root>:[0m[1m type OPT
+[0m[1m[32m	Name:[0m[1m fastapi.netlify.com
+[0m[1m[32m	Name:[0m[1m <Root>
+[0m[1m[32m	Type:[0m[1m AAAA (IPv6 Address) (28)
+[0m[1m[32m	Type:[0m[1m OPT (41)
+[0m[1m[32m	Class:[0m[1m IN (0x0001)
+[0m[1m[32m	Time to live:[0m[1m 20 (20 seconds)
+[0m[1m[32m	Data length:[0m[1m 16
+[0m[1m[32m	Data length:[0m[1m 0
+[0m[1m[32m	AAAA Address:[0m[1m 2a03:b0c0:3:d0::d23:d001
+[0m
+
+05-01-2024_12-12-00 agent
+b'"1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN qlen 1000\
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00\
+    inet 127.0.0.1/8 scope host lo\
+       valid_lft forever preferred_lft forever\
+10: eth0@if11: <BROADCAST,MULTICAST,UP,LOWER_UP,M-DOWN> mtu 1500 qdisc noqueue state UP \
+    link/ether 02:42:ac:11:00:02 brd ff:ff:ff:ff:ff:ff\
+    inet 172.17.0.2/16 brd 172.17.255.255 scope global eth0\
+       valid_lft forever preferred_lft forever\
+"'
+
