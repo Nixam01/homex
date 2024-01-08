@@ -107,4 +107,4 @@ async def command_(cm: Command_model):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="172.17.0.2", port=8003)
+    uvicorn.run(app, host="127.0.0.1", port=8001)
