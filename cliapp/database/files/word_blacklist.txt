@@ -2,4 +2,3 @@ virus
 wirus
 malware
 wannacry
-elka.pw

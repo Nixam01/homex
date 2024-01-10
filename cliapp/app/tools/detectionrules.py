@@ -9,7 +9,7 @@ def detect_ip(file_path):
     condition = False
     ips = []
     found_ips = []
-    with open("../database/files/ip_blacklist.txt", 'r') as f:
+    with open("../database/files/suspiciousip.txt", 'r') as f:
         for line in f:
             ips.append(line.strip())
 
