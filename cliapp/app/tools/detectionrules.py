@@ -34,14 +34,12 @@ def detect_ip(file_path):
 
     if condition:
         action_alert = "remote"
-        action_block = True
         description = "Alert - suspicious ip"
     else:
         action_alert = None
-        action_block = None
         description = None
 
-    return action_alert, action_block, description, found_ips
+    return action_alert, description, found_ips
 
 
 def detect_words(file_path):
@@ -72,14 +70,12 @@ def detect_words(file_path):
 
     if condition:
         action_alert = "remote"
-        action_block = False
         description = "Alert - suspicious word"
     else:
         action_alert = None
-        action_block = None
         description = None
 
-    return action_alert, action_block, description, found_words
+    return action_alert, description, found_words
 
 
 def detect_anomaly(file_path):
@@ -118,11 +114,9 @@ def detect_anomaly(file_path):
 
     if len(untrusted_ports) > 0:
         action_alert = "remote"
-        action_block = True
         description = "Alert - untrusted ports"
     else:
         action_alert = None
-        action_block = None
         description = None
 
-    return action_alert, action_block, description, untrusted_ports
+    return action_alert, description, untrusted_ports
