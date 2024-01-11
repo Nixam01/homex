@@ -213,7 +213,7 @@ def loaddetectionrules(file_path, rule):
                     for name in files:
                         output = detect_ip(name)
                         click.echo(output)
-    elif rule == 'detects_words':
+    elif rule == 'detect_words':
         for pth in file_path:
             if os.path.isfile(pth):
                 output = detect_ip(file_path)
