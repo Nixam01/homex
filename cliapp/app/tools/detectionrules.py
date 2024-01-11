@@ -70,7 +70,7 @@ def detect_words(file_path):
 
     if condition:
         action_alert = "remote"
-        description = "Alert - suspicious word"
+        description = "Alert - suspicious activity - keywords detected in network"
     else:
         action_alert = None
         description = None
