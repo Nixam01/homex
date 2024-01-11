@@ -2,6 +2,8 @@ virus
 wirus
 malware
 wannacry
+password
+bruteforce
 incorrect
 trojan
 ransomware
