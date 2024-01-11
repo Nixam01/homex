@@ -9,6 +9,42 @@ def detect_ip(file_path):
     condition = False
     ips = []
     found_ips = []
+    with open("../database/files/ipblocklist.txt", 'r') as f:
+        for line in f:
+            ips.append(line.strip())
+
+    if file_path.endswith('.txt') or file_path.endswith('.xml') or file_path.endswith('.json'):
+        with open(file_path, "r") as file:
+            for line in file:
+                for ip in ips:
+                    if re.search(ip, line):
+                        condition = True
+                        found_ips.append(ip)
+
+    elif file_path.endswith('.pcap'):
+        shark_cap = pyshark.FileCapture(file_path)
+        output = ""
+        for packet in shark_cap:
+            output += str(packet)
+        for ip in ips:
+            if re.search(ip, output):
+                condition = True
+                found_ips.append(ip)
+        print(found_ips)
+
+    if condition:
+        action_alert = "remote"
+        description = "Alert - blacklisted ip"
+    else:
+        action_alert = None
+        description = None
+
+    return action_alert, description, found_ips
+
+def detect_suspicious_ip(file_path):
+    condition = False
+    ips = []
+    found_ips = []
     with open("../database/files/suspiciousip.txt", 'r') as f:
         for line in f:
             ips.append(line.strip())
@@ -46,7 +82,7 @@ def detect_words(file_path):
     condition = False
     words = []
     found_words = []
-    with open("../database/files/word_blacklist.txt", 'r') as f:
+    with open("../database/files/shelldetection.txt", 'r') as f:
         for line in f:
             words.append(line.strip())
 

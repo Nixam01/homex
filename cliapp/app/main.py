@@ -203,7 +203,7 @@ def agent(action, agent_host, interface, capture_filter, timeout, file_number, c
 @click.option('--file_path', multiple=True, type=click.Path(exists=True))
 @click.option('--rule', multiple=False, help="detect_ip or detect_words or detect_anomaly")
 def loaddetectionrules(file_path, rule):
-    if rule == 'detect_ip':
+    if rule == 'detect_ip_from_blacklist':
         for pth in file_path:
             if os.path.isfile(pth):
                 output = detect_ip(str(file_path)[2:-3])
@@ -212,6 +212,16 @@ def loaddetectionrules(file_path, rule):
                 for root, directories, files in os.walk(pth, topdown=False):
                     for name in files:
                         output = detect_ip(name)
+                        click.echo(output)
+    elif rule == 'detect_suspicious_ip':
+        for pth in file_path:
+            if os.path.isfile(pth):
+                output = detect_suspicious_ip(str(file_path)[2:-3])
+                click.echo(output)
+            elif os.path.isdir(pth):
+                for root, directories, files in os.walk(pth, topdown=False):
+                    for name in files:
+                        output = detect_suspicious_ip(name)
                         click.echo(output)
     elif rule == 'detect_words':
         for pth in file_path:
@@ -226,7 +236,7 @@ def loaddetectionrules(file_path, rule):
     elif rule == 'detect_anomaly':
         for pth in file_path:
             if os.path.isfile(pth):
-                output = detect_anomaly(file_path)
+                output = detect_anomaly(str(file_path)[2:-3])
                 click.echo(output)
             elif os.path.isdir(pth):
                 for root, directories, files in os.walk(pth, topdown=False):
