@@ -48,7 +48,7 @@ def detect_words(file_path):
     condition = False
     words = []
     found_words = []
-    with open("../../database/files/word_blacklist.txt", 'r') as f:
+    with open("../database/files/word_blacklist.txt", 'r') as f:
         for line in f:
             words.append(line.strip())
 
