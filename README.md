@@ -24,14 +24,14 @@ Wyprowadzona została również komunikacja ze zdalnym loggerem, dzięki czemu u
 
 ### Zdalny Agent
 
-Zdalny agent jest kluczowym elementem naszego rozwiązania. 
+Zdalny agent jest kluczowym elementem rozwiązania. 
 Umożliwia zdalne wykonywanie licznych operacji monitorujących poprzez aplikację centralną. 
 Łączy się z centralną aplikacją poprzez styk REST. 
 Wykonuje odpowiednie komendy odebrane z aplikacji i zwraca żądane wartości, wyniki wykonania lub całe pliki z powrotem do centralnej aplikacji.
 
 ## Setup
 
-Aby skonfigurować całe środowisko działania naszego rozwiązania, należy utworzyć dwa kontenery (lub inne hosty w zaawansowanym przypadku) i z trzeciego hosta uruchomić centralną aplikację Cliapp.
+Aby skonfigurować całe środowisko działania, należy utworzyć dwa kontenery (lub inne hosty w zaawansowanym przypadku) i z trzeciego hosta uruchomić centralną aplikację Cliapp.
 
 ### Uruchomienie hosta z agentem
 
