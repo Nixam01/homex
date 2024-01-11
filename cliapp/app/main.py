@@ -235,6 +235,10 @@ def loaddetectionrules(file_path, rule):
                         click.echo(output)
     else:
         click.echo("Invalid action")
+#@application.command()
+#@click.option('--load_a_rule', multiple=False, help="provide a rule file")
+#def load_a_rule_from_file(file_path):
+
 
 if __name__ == '__main__':
     application()

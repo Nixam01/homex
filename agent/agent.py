@@ -25,8 +25,10 @@ app = FastAPI()
 
 
 def capture_live_packets(network_interface, capture_filter, timeout, file_name):
-    capture = pyshark.LiveCapture(interface=network_interface, display_filter=capture_filter, output_file=file_name)
-    capture.sniff(timeout=timeout)
+    with open(file_name, 'w') as file:
+        capture = pyshark.LiveCapture(interface=network_interface, display_filter=capture_filter, output_file=file_name)
+        capture.sniff(timeout=timeout)
+
 
 # Requirement ON.REM.1.1 Pobierz informację o konfiguracji sieciowej zdalnego hosta.
 @app.get("/netconfig")
@@ -107,4 +109,4 @@ async def command_(cm: Command_model):
 
 
 if __name__ == '__main__':
-    uvicorn.run(app, host="172.17.0.2", port=8003)
+    uvicorn.run(app, host="0.0.0.0", port=5000)
